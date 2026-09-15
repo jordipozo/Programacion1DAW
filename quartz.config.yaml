@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: jordipozo.github.io/ProgramacionDAW1
+  baseUrl: jordipozo.github.io/Programacion1DAW
   ignorePatterns:
     - private
     - templates
