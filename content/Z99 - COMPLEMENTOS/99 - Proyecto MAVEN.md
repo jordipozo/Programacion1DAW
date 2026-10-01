@@ -1,4 +1,4 @@
-Un proyecto Java **MAVEN** es una aplicación estructurada que utiliza la herramienta [Apache Maven](https://maven.apache.org/) para automatizar la gestión de dependencias y el proceso de compilación del código.
+Un proyecto Java **Maven es una aplicación estructurada que utiliza la herramienta [Apache Maven](https://maven.apache.org/) para automatizar la gestión de dependencias y el proceso de compilación del código.
 
 ---
 ## Estructura y ficheros que lo componen

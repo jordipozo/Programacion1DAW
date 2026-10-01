@@ -47,6 +47,8 @@ Ejecútalo y comprueba los resultados.
 
 > 💡 **Detalle práctico:** cada instrucción termina con `;`. Es el punto final de cada frase. Sin él, el compilador piensa que la frase continúa y se lía. Los `{}` delimitan los bloques: los de la clase contienen la clase, los del `main` contienen las órdenes.
 
+![[Pasted image 20261001115935.png]]
+
 ## 🗝️ ¿Por qué `public static void main(String[] args)`?
 
 Desmenucemos cada palabra:
