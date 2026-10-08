@@ -1,3 +1,4 @@
+### APARTADOS 1.2 Y 1.3
 ## Ejercicio 1.
 
 Diseña un algoritmo para jugar a “adivinar un número”. El algoritmo generará un número _aleatorio_ entre 1 y 100, que llamaremos el número secreto, y le pedirá al jugador que introduzca un número hasta que gane o un -1 para rendirse:
