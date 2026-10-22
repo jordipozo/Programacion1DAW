@@ -61,7 +61,7 @@ for (int i = 0; i < 10; i++) { ... }
 ```
 main:            sumar:
 ┌──────────┐     ┌──────────────┐
-│ (nada)   │     │ total = 10   │  ← existe solo aquí
+│ (nada)    │     │ total = 10   │  ← existe solo aquí
 └──────────┘     │ total = 15   │ 
                  └──────────────┘  ← y aquí desaparece
 ```
