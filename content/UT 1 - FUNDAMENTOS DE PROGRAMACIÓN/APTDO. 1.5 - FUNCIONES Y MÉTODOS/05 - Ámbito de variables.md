@@ -1,3 +1,5 @@
+# 05 - Ámbito de variables
+
 Las variables viven dentro de su método y no se salen: por qué tu `total` no puede chocar con la de al lado ni escaparse de casa 🏠
 
 ---
@@ -47,6 +49,7 @@ Java no lo encuentra porque **no existe** fuera de `sumar()`. El método termin�
 ## 📏 Las reglas del ámbito
 
 1. **Parámetros y locales** de un método se ven **dentro de ese método** (de su firma a su llave de cierre).
+
 2. **Un bloque también es una casa pequeña:** una variable declarada dentro de un `if` o de un `for` no existe fuera de sus llaves (ya lo viste en la U04).
 
 ```java
@@ -55,7 +58,9 @@ for (int i = 0; i < 10; i++) { ... }
 ```
 
 3. **El orden importa dentro del método:** solo puedes usar una variable **después** de declararla.
+
 4. **Dos hermanas no se pelean:** cada método tiene su propio espacio; repetir nombres entre métodos es normal y sano.
+
 5. Al terminar el método, sus variables **mueren**: sus valores no sobreviven (salvo lo que el método devuelve con `return` o lo que imprime).
 
 ```
@@ -118,8 +123,11 @@ public class Alcance {
 **¿Qué pasa?**
 
 - (A) Imprime `1`
+
 - (B) Imprime `0`
+
 - (C) No compila: `x` no existe en `b()`
+
 - (D) Compila, pero lanza excepción al ejecutar
 
 🔄 Solución
@@ -133,15 +141,21 @@ La **C**. `x` vive y muere dentro de `a()`. El método `b()` no la conoce: es un
 Ponte a prueba en 30 segundos (las respuestas están escondidas):
 
 1. ¿Pueden dos métodos tener una variable local llamada `contador` a la vez?
+
 2. ¿Existe `i` del `for` fuera de sus llaves?
+
 3. ¿Sobrevive `resultado` al terminar el método que la declara?
+
 4. Mi método no cambia el `saldo` que le pasé. ¿Es un bug?
 
 🔄 Respuestas
 
 1. Sí: cada una vive en su método, son dos variables distintas.
+
 2. No. Su ámbito termina en la llave de cierre del `for`.
+
 3. No. Las locales mueren al salir del método; solo sobrevive lo que devuelvas.
+
 4. No es un bug: los argumentos primitivos llegan **copiados**. Si necesitas el resultado, devuélvelo con `return`.
 
 ---
@@ -149,15 +163,19 @@ Ponte a prueba en 30 segundos (las respuestas están escondidas):
 ## ✅ Resumen en 3 frases
 
 1. El **ámbito** de una variable es el trozo de código donde existe: su método (o su bloque `if`/`for`) y nada más.
+
 2. Dentro caben **parámetros** y **locales**; al terminar el método desaparecen y otro método no puede verlas.
+
 3. Entre métodos solo viaja lo que se **pasa** (argumentos copiados) o lo que se **devuelve** (`return`).
 
 🐛 **Vocabulario rápido**
 
-| Término              | Idea general                               |
-| -------------------- | ------------------------------------------ |
-| Ámbito / scope       | Región donde una variable existe           |
-| Variable local       | Declarada dentro de un método o bloque     |
-| Parámetro            | Variable de entrada del método             |
+| Término | Idea general |
+| --- | --- |
+| Ámbito / scope | Región donde una variable existe |
+| Variable local | Declarada dentro de un método o bloque |
+| Parámetro | Variable de entrada del método |
 | `cannot find symbol` | Estás usando una variable fuera de su casa |
-| Copia del argumento  | El método trabaja con su propio duplicado  |
+| Copia del argumento | El método trabaja con su propio duplicado |
+" path="UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/05 - Ámbito de variables.md">
+shell -c "cd '/home/jordi/Documentos/Ribera/Curso26_27/DAW_1/PROGRAMACION/bovedaProgramacion/ProgramacionDAW' && git init && git add -A && git commit -m 'Initial commit: restore 05 note and add memory/exam files'"
