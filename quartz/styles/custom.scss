@@ -1,3 +1,43 @@
-@use "./variables.scss" as *;
+/* Estilos para la portada y listados de Quartz v5 */
 
-// put your custom CSS here!
+/* Portada: hero más grande */
+.page-title {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Listado de contenidos como tarjetas */
+.content-index,
+.folder-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.content-index li,
+.folder-listing li {
+  list-style: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  padding: 1rem;
+  background: var(--light);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.content-index li:hover,
+.folder-listing li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.content-index a,
+.folder-listing a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Ocultar metadatos secundarios en la home */
+.home .content-meta {
+  display: none;
+}

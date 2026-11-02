@@ -1,50 +1,29 @@
 ---
 title: Programación 1º DAW
+description: Apuntes y ejercicios de Programación de 1º DAW — Fundamentos de Java y POO.
 ---
 
-# Bienvenido al módulo de PROGRAMACIÓN - 1º DAW
+# 🏗️ Programación — 1º DAW
 
-Aquí encontrarás los apuntes del módulo.
+Bienvenido/a a los apuntes de **Programación** de 1º DAW. Aquí encontrarás teoría, ejercicios y soluciones organizados por unidades y apartados.
 
-## Contenidos:
+## 📚 Unidades
 
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.2 - INTRODUCCIÓN A JAVA/00 - Programación en Java - 1º DAW]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.2 - INTRODUCCIÓN A JAVA/01 - Mi primer programa en Java]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.2 - INTRODUCCIÓN A JAVA/02 - Variables y tipos primitivos]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.2 - INTRODUCCIÓN A JAVA/03 - String, constantes y final]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/01 - Operadores aritméticos]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/02 - Relacionales, lógicos y ternario]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/03 - Scanner. Leer por teclado]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/04 - Consola. Salida formateada y errores de entrada]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/05 - Math.random() y números aleatorios]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/06 - Métodos útiles de String]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.3 - VARIABLES, TIPOS Y OPERADORES/17 - Ejercicio práctico]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/01- Sentencias if, else if y else. El semáforo del código]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/02 - Bucles while y do-while]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/03 - Bucle for y bucles anidados]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/04 - switch. El menú del restaurante]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/05 - Excepciones básicas]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/06 - Gestión de excepciones (I). try, catch y finally]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.4 - ESTRUCTURAS DE CONTROL. EXCEPCIONES/07 - Gestión de excepciones (II). throw y excepciones propias]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/01 - Función y método]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/02 - El primer método]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/03 - Parámetros. La entrada]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/04 - return. La salida]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/05 - Ámbito de variables]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/06 - Errores frecuentes]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/07 - Divide el problema]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/08 - Be the Code (Ejercicio)]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/09 - Ejercicios propuestos]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/01 - Arrays. El aparcamiento de datos]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/02 - Recorrer arrays. Usando for y for-each]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/03 - Arrays multidimensionales]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/04 - La clase Arrays. La navaja suiza]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/05 - Arrays y métodos]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/06 - Aplicaciones de los arrays]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/07 - Be the Code. Gestionando el parking]]
-- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.6 - ARRAYS/08 - Ejercicios propuestos.]]
-- [[Z98 - EJERCICIOS/PACK 01 - EJERCICIOS]]
-- [[Z98 - EJERCICIOS/PACK 02 - EJERCICIOS]]
-- [[Z99 - COMPLEMENTOS/97 - Instalación del JDK. Arranque del IDE]]
-- [[Z99 - COMPLEMENTOS/98 - El IDE y el flujo de trabajo]]
-- [[Z99 - COMPLEMENTOS/99 - Proyecto MAVEN]]
+- [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN]] — Variables, tipos, estructuras de control, funciones y arrays.
+- [[UT 2 - POO - CLASES Y OBJETOS]] — Clases, objetos, atributos, métodos y constructores.
+
+## 🧩 Complementos
+
+- [[Z98 - EJERCICIOS]] — Packs de ejercicios.
+- [[Z99 - COMPLEMENTOS]] — IDE, Maven, BlueJ y más.
+
+## 🎓 BlueJ
+
+- [[BlueJ - Introducción a la POO con BlueJ]]
+- [[01 - Ejercicios POO con BlueJ]]
+
+> 💡 **Tip:** usa la barra de búsqueda (arriba) para encontrar cualquier concepto rápidamente.
+
+---
+
+*Generado con [Quartz v5.0.0](https://quartz.jzhao.xyz/).*
