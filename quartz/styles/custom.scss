@@ -2,8 +2,16 @@
 
 /* Portada: hero más grande */
 .page-title {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
+}
+
+/* Título del Explorer (sidebar izquierdo) más pequeño */
+.explorer .page-title,
+.sidebar .page-title,
+.explorer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 /* Listado de contenidos como tarjetas */
