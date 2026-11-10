@@ -10,7 +10,7 @@ Bienvenido/a a los apuntes de **Programación** de 1º DAW. Aquí encontrarás t
 ## 📚 Unidades
 
 - [[UT 1 - FUNDAMENTOS DE PROGRAMACIÓN]] — Variables, tipos, estructuras de control, funciones y arrays.
-- [[UT 2 - POO - CLASES Y OBJETOS]] — Clases, objetos, atributos, métodos y constructores.
+- [[UT 2 - POO - CLASES Y OBJETOS]] — Clases, objetos, atributos, métodos, constructores, visibilidad y encapsulación.
 
 ## 🧩 Complementos
 

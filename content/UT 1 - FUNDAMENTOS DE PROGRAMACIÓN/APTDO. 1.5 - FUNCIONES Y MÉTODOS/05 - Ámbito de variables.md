@@ -170,12 +170,10 @@ Ponte a prueba en 30 segundos (las respuestas están escondidas):
 
 🐛 **Vocabulario rápido**
 
-| Término | Idea general |
-| --- | --- |
-| Ámbito / scope | Región donde una variable existe |
-| Variable local | Declarada dentro de un método o bloque |
-| Parámetro | Variable de entrada del método |
+| Término              | Idea general                               |
+| -------------------- | ------------------------------------------ |
+| Ámbito / scope       | Región donde una variable existe           |
+| Variable local       | Declarada dentro de un método o bloque     |
+| Parámetro            | Variable de entrada del método             |
 | `cannot find symbol` | Estás usando una variable fuera de su casa |
-| Copia del argumento | El método trabaja con su propio duplicado |
-" path="UT 1 - FUNDAMENTOS DE PROGRAMACIÓN/APTDO. 1.5 - FUNCIONES Y MÉTODOS/05 - Ámbito de variables.md">
-shell -c "cd '/home/jordi/Documentos/Ribera/Curso26_27/DAW_1/PROGRAMACION/bovedaProgramacion/ProgramacionDAW' && git init && git add -A && git commit -m 'Initial commit: restore 05 note and add memory/exam files'"
+| Copia del argumento  | El método trabaja con su propio duplicado  |
