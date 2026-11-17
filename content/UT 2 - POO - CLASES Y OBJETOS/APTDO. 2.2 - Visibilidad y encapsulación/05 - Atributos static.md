@@ -21,11 +21,25 @@ En Java es igual:
 - **Variable de clase** (`static`): una sola copia compartida por todos los objetos.
 - **Variable de instancia** (sin `static`): cada objeto tiene la suya, independiente.
 
-```
-public class Estudiante {    private static int totalEstudiantes = 0;    private String nombre;    private int id;
-    public Estudiante(String nombre) {        this.nombre = nombre;        this.id = ++totalEstudiantes;    }
-    public static int getTotalEstudiantes() {        return totalEstudiantes;    }
-    public int getId() {        return id;    }}
+```java
+public class Estudiante {    
+	private static int totalEstudiantes = 0;    
+	private String nombre;    
+	private int id;
+	
+    public Estudiante(String nombre) {        
+	    this.nombre = nombre;        
+	    this.id = ++totalEstudiantes;    
+	}
+	
+    public static int getTotalEstudiantes() {        
+	    return totalEstudiantes;    
+	}
+	
+    public int getId() {        
+	    return id;    
+	}
+}
 ```
 
 Cada `Estudiante` tiene su propio `nombre` e `id`, pero todos comparten `totalEstudiantes`. Cuando creas el tercer estudiante, el contador pasa a 3 **para toda la clase**.
@@ -35,8 +49,15 @@ Cada `Estudiante` tiene su propio `nombre` e `id`, pero todos comparten `totalEs
 ## 🧠 Cómo se ve en memoria
 
 ```
-  CLASE: Estudiante  ┌──────────────────────┐  │ totalEstudiantes = 3 │  ← static: UNO para toda la clase  └──────────────────────┘
-  OBJETO e1        OBJETO e2        OBJETO e3  ┌─────────┐      ┌─────────┐      ┌─────────┐  │ nombre  │      │ nombre  │      │ nombre  │  │ id = 1  │      │ id = 2  │      │ id = 3  │  └─────────┘      └─────────┘      └─────────┘
+  CLASE: Estudiante  ┌──────────────────────┐  
+					 │ totalEstudiantes = 3 │  ← static: UNO para toda la clase 
+					 └──────────────────────┘
+					 
+  OBJETO e1        OBJETO e2        OBJETO e3  
+  ┌─────────┐      ┌─────────┐      ┌─────────┐  
+  │ nombre  │      │ nombre  │      │ nombre  │  
+  │ id = 1  │      │ id = 2  │      │ id = 3  │  
+  └─────────┘      └─────────┘      └─────────┘
 ```
 
 El contador vive en “la clase” (un espacio que existe una sola vez), mientras que cada objeto tiene su nombre y su id en su propio cajón.
