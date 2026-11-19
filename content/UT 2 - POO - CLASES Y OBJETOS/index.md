@@ -10,6 +10,8 @@ Apuntes de la segunda unidad: de variables sueltas a objetos con vida propia.
 ## Apartados
 
 - [[APTDO. 2.1 - Intro POO]]
+- [[APTDO. 2.2 - Visibilidad y encapsulación]]
+- [[APTDO. 2.3 - Herencia, polimorfismo e interfaces]]
 
 ## Complementos
 
